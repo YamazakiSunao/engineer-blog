@@ -1,0 +1,451 @@
+/*setting*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 2;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    width: 100%;
+    height: auto;
+    min-width: 375px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,p {
+    margin-top: 0;
+    line-height: 1;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ds-pc {
+    display: block;
+}
+
+.ds-sm {
+    display: none;
+}
+
+/*setting*/
+
+/*common*/
+
+.top-title h1 {
+    padding: 30px;
+    background-color: #fff;
+}
+.top-title h1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.top-title img {
+    width: 40%;
+}
+.wrapper .top-subtitle {
+    float: right;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+.wrapper .header-nav ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.wrapper .top-menu {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.wrapper .menu-btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+.wrapper .menu-btn:hover {
+    border-bottom: 5px solid #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.far, .fas {
+    font-size: 1.3rem;
+    margin-right: 7px;
+}
+
+/*news*/
+
+.news-title {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.top-popular ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.popular-list {
+    list-style: none;
+    width: 29%;
+    background-color: #fff;
+    padding: 1.3vw;
+}
+
+.read-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.read-btn a {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.read-btn a:hover {
+    border-bottom: 2px solid blue;
+    transition: all 0.5s ease 0s;
+    background: blue;
+    padding: 10px;
+    color: #fff;
+}
+
+.popular-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.popular-list .blog-title {
+    margin-top: 20px;
+    width: 100%;
+    word-break: break-all;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/*news*/
+
+.right-column {
+    width: 66%;
+    float: left;
+}
+.left-column {
+    width: 32.3%;
+    float: right;
+}
+
+.archive, .popular-container, .my-about, #form1 {
+    background-color: #fff;
+    padding: 2vw;
+}
+
+.popular-container {
+    margin: 20px 0;
+}
+
+.l-c-title {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 30px 0;
+}
+
+#form1 {
+    margin-bottom: 20px;
+}
+#form1 #sbox {
+    width: 13vw;
+    height: 30px;
+    padding: 5px;
+}
+#form1 #sbtn {
+    background-color: blue;
+    color: #fff;
+    padding: 13px;
+    margin-left: -6px;
+}
+
+.fas.fa-flag{
+    color: blue;
+    margin-left: 20px;
+}
+
+.left-column p {
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.about-sns ul {
+    text-align: end;
+    display: flex;
+    flex-direction: column
+}
+
+.left-column .about-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.l-c-container a {
+    text-decoration: none;
+    color: black;
+    word-break: break-all;
+    text-align: center;
+}
+
+.left-column .about-list a:hover {
+    color: blue;
+}
+.l-card .figcaption-title {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+
+.archive-mass ul {
+    letter-spacing: 3px;
+}
+.archive-mass .time-list {
+    list-style: none;
+    font-size: 1.3rem;
+}
+.archive-mass .time-list::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+.archive-mass a {
+    text-decoration: none;
+    color: black;
+}
+
+.archive-mass a:hover {
+    color: blue;
+}
+
+.footer ul {
+    display: flex;
+    margin: 50px 0;
+}
+.footer .top-menu {
+    margin: 0 15px;
+}
+
+.footer .top-menu::after {
+    content: '/';
+    margin-left: 10px;
+}
+.footer .menu-btn {
+    text-decoration: none;
+    color: black;
+}
+.footer .menu-btn .fas {
+    font-size: 1.5rem;
+}
+
+.f-copy {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    height: 100px;
+    padding-top: 100px;
+}
+
+/*common*/
+
+
+/*container*/
+
+.container {
+    padding: 45px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+.container time {
+    margin-left: 30px;
+}
+
+.container .figcaption-title {
+    width: 90%;
+    margin: 0 auto;
+    word-break: break-all;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.container .figcaption-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .card-more {
+    margin-top: 20px;
+    text-align: center;
+}
+.card-more a {
+    text-decoration: none;
+    color: black;
+    padding: 1vw 2vw;
+    border: 1px solid black;
+    transition: all 0.3s ease 0s;
+}
+
+.card-more a:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+}
+
+.turn {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.turn-btn {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.turn-btn:hover {
+    border-bottom: none;
+    transition: all 0.5s ease 0s;
+    background: blue;
+    padding: 20px;
+    color: #fff;
+}
+
+/*container*/
+
+
+/*--------------------Responsive--------------------*/
+
+@media screen and (max-width: 768px) {
+
+    /*setting*/
+
+    .wrapper {
+        width: 100%;
+    }
+    
+    .wrap {
+        padding: 0 5%;
+    }
+    
+    .ds-sm {
+        display: block;
+    }
+
+    .ds-pc {
+        display: none;
+    }
+
+    /*setting*/
+
+    /*common*/
+
+    .container {
+        padding: 20px;
+    }
+
+    .right-column {
+        width: 100%;
+        float: none;
+    }
+    .left-column {
+        width: 100%;
+        float: none;
+    }
+
+    .top-title img {
+        width: 100%;
+    }
+    
+    .news-title {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    
+    .top-popular ul {
+        flex-direction: column;
+    }
+    
+    .popular-list {
+        width: 97%;
+        margin-bottom: 20px;
+    }
+    
+    .l-c-title {
+        margin: 15px 0;
+    }
+    
+    .archive-mass .time-list {
+        font-size: 1rem;
+    }
+
+    .footer .top-menu {
+        margin-top: 30px 0;
+    }
+    
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 25px 0;
+    }
+    
+    .archive {
+        padding: 5vw;
+    }
+
+    /*common*/
+
+    /*container*/
+
+    .container .figcaption-text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container .figcaption-title {
+        width: 100%;
+    }
+
+    .card-more a {
+        padding: 3vw 10vw;
+    }
+
+    .container time {
+        margin-left: 0;
+    }
+
+    .turn {
+        margin: 40px 0;
+    }
+
+    /*container*/
+
+}
+
+/*--------------------Responsive--------------------*/

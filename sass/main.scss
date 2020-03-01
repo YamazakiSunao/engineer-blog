@@ -1,0 +1,123 @@
+@import "reset";
+@import "setting";
+@import "common";
+
+
+$container-bg: #fff;
+$btn-br: 1px solid black;
+
+/*container*/
+
+.container {
+    padding: 45px;
+    margin-bottom: 40px;
+    background-color: $container-bg;
+
+    time {
+        margin-left: 30px;
+    }
+
+    .blog-card {
+
+        .card-f {
+
+            .figcaption-title {
+                width: 90%;
+                margin: 0 auto;
+                word-break: break-all;
+                font-size: 1.7rem;
+                margin-bottom: 20px;
+            }
+
+            .figcaption-text {
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+
+        .card-more {
+            margin-top: 20px;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: black;
+                padding: 1vw 2vw;
+                border: $btn-br;
+                transition: all 0.3s ease 0s;
+
+                &:hover {
+                    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+                    transform: translateY(-0.1875em);
+                }
+            }
+        }
+    }
+}
+
+.turn {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+
+    .turn-btn {
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        border-bottom: $btn-br;
+
+        &:hover {
+            border-bottom: none;
+            transition: all 0.5s ease 0s;
+            background: blue;
+            padding: 20px;
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 15px;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+
+        time {
+            margin-left: 0;
+        }
+
+        .blog-card {
+
+            .card-f {
+
+                .figcaption-title {
+                    width: 100%;
+                }
+
+                .figcaption-text {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .card-more {
+
+                a {
+                    padding: 3vw 10vw;
+                }
+            }
+        }
+    } 
+
+    .turn {
+        margin: 40px 0;
+    }
+
+}
+
+/*container*/
+
+@import "single";

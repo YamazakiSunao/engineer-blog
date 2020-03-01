@@ -1,0 +1,69 @@
+$main-font: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+$main-bg: #f1f1f1;
+
+/*setting*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 2;
+    font-family: $main-font;
+    width: 100%;
+    height: auto;
+    min-width: 375px;
+    margin: 0 auto;
+    background-color: $main-bg;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,p {
+    margin-top: 0;
+    line-height: 1;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ds-pc {
+    display: block;
+}
+
+.ds-sm {
+    display: none;
+}
+
+/*setting*/
+
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        width: 100%;
+    }
+    
+    .wrap {
+        padding: 0 5%;
+    }
+    
+    .ds-sm {
+        display: block;
+    }
+
+    .ds-pc {
+        display: none;
+    }
+}
